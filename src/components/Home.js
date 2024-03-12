@@ -10,14 +10,14 @@ const Home = () => {
             <div className="about-me-box shadow-box">
               <Link className="overlay-link" to="/about"></Link>
               <div className="img-box">
-                <img src="./images/profile-2.jpeg" alt="About Me" />
+                <img src="./assets/images/profile-2.jpeg" alt="About Me" />
               </div>
               <div className="infos">
                 <h4>A WEB DESIGNER</h4>
                 <h1>Sandeep Patil.</h1>
                 <p>I am a Web Designer based in India.</p>
                 <NavLink to="./about.html" className="about-btn">
-                  <img src="./images/images/icon-2.svg" alt="Button" />
+                  <img src="./assets/images/images/icon-2.svg" alt="Button" />
                 </NavLink>
               </div>
             </div>
@@ -31,15 +31,30 @@ const Home = () => {
                     <div>
                       <span>
                         LATEST WORK AND <b>FEATURED</b>{" "}
-                        <img src="./images/images/star1.svg" alt="Star" />{" "}
+                        <img
+                          src="./assets/images/images/star1.svg"
+                          alt="Star"
+                        />{" "}
                         LATEST WORK AND <b>FEATURED</b>{" "}
-                        <img src="./images/images/star1.svg" alt="Star" />{" "}
+                        <img
+                          src="./assets/images/images/star1.svg"
+                          alt="Star"
+                        />{" "}
                         LATEST WORK AND <b>FEATURED</b>{" "}
-                        <img src="./images/images/star1.svg" alt="Star" />{" "}
+                        <img
+                          src="./assets/images/images/star1.svg"
+                          alt="Star"
+                        />{" "}
                         LATEST WORK AND <b>FEATURED</b> LATEST WORK AND{" "}
-                        <img src="./images/images/star1.svg" alt="Star" />{" "}
+                        <img
+                          src="./assets/images/images/star1.svg"
+                          alt="Star"
+                        />{" "}
                         LATEST WORK AND <b>FEATURED</b> LATEST WORK AND{" "}
-                        <img src="./images/images/star1.svg" alt="Star" />
+                        <img
+                          src="./assets/images/images/star1.svg"
+                          alt="Star"
+                        />
                       </span>
                     </div>
                   </div>
@@ -51,7 +66,7 @@ const Home = () => {
                   <div className="about-project-box info-box shadow-box h-full">
                     <Link className="overlay-link" to="/projects"></Link>
                     <img
-                      src="./images/images/Header-project-image.jpg"
+                      src="./assets/images/images/Header-project-image.jpg"
                       alt="My Projects"
                     />
                     <div className="d-flex align-items-center justify-content-between">
@@ -61,7 +76,10 @@ const Home = () => {
                       </div>
 
                       <Link to="/" className="about-btn">
-                        <img src="./images/images/icon-2.svg" alt="Button" />
+                        <img
+                          src="./assets/images/images/icon-2.svg"
+                          alt="Button"
+                        />
                       </Link>
                     </div>
                   </div>
@@ -70,7 +88,7 @@ const Home = () => {
                   <div className="about-crenditials-box info-box shadow-box h-full">
                     <Link className="overlay-link" to="/certificate"></Link>
                     <img
-                      src="./images/images/certificate.png"
+                      src="./assets/images/images/certificate.png"
                       alt="Sign"
                       height={145}
                     />
@@ -81,7 +99,10 @@ const Home = () => {
                       </div>
 
                       <Link to="/certificate" className="about-btn">
-                        <img src="./images/images/icon-2.svg" alt="Button" />
+                        <img
+                          src="./assets/images/images/icon-2.svg"
+                          alt="Button"
+                        />
                       </Link>
                     </div>
                   </div>
@@ -97,7 +118,7 @@ const Home = () => {
               <div data-aos="zoom-in">
                 <div className="about-blog-box info-box shadow-box h-full">
                   <Link href="./blog.html" className="overlay-link"></Link>
-                  <img src="./images/images/gfonts.png" alt="GFonts" />
+                  <img src="./assets/images/images/gfonts.png" alt="GFonts" />
                   <div className="d-flex align-items-center justify-content-between">
                     <div className="infos">
                       <h4>Blog</h4>
@@ -105,7 +126,10 @@ const Home = () => {
                     </div>
 
                     <Link href="./blog.html" className="about-btn">
-                      <img src="./images/images/icon-2.svg" alt="Button" />
+                      <img
+                        src="./assets/images/images/icon-2.svg"
+                        alt="Button"
+                      />
                     </Link>
                   </div>
                 </div>
@@ -168,7 +192,10 @@ const Home = () => {
                     </div>
 
                     <Link href="./service.html" className="about-btn">
-                      <img src="./images/images/icon-2.svg" alt="Button" />
+                      <img
+                        src="./assets/images/images/icon-2.svg"
+                        alt="Button"
+                      />
                     </Link>
                   </div>
                 </div>
@@ -199,7 +226,10 @@ const Home = () => {
                     </div>
 
                     <Link href="./contact.html" className="about-btn">
-                      <img src="./images/images/icon-2.svg" alt="Button" />
+                      <img
+                        src="./assets/images/images/icon-2.svg"
+                        alt="Button"
+                      />
                     </Link>
                   </div>
                 </div>
@@ -243,7 +273,7 @@ const Home = () => {
           <div className="about-contact-box info-box shadow-box">
             <Link className="overlay-link" to="/contact"></Link>
             <img
-              src="./images/images/icon2-2.png"
+              src="./assets/images/images/icon2-2.png"
               alt="Icon"
               className="star-icon"
             />
@@ -252,7 +282,7 @@ const Home = () => {
               work <span>together.</span>
             </h1>
             <Link to="/projects" className="about-btn">
-              <img src="./images/images/icon-2.svg" alt="Button" />
+              <img src="./assets/images/images/icon-2.svg" alt="Button" />
             </Link>
           </div>
 
