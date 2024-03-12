@@ -11,7 +11,7 @@ const Home = () => {
               <Link className="overlay-link" to="/about"></Link>
               <div className="img-box">
                 <img
-                  src="/src/assets/images/profile-2.jpeg"
+                  src="My-Portfolio/src/assets/images/profile-2.jpeg"
                   alt="About Me"
                 />
               </div>
