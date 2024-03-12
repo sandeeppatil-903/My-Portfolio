@@ -94,7 +94,7 @@ const Home = () => {
                   <div className="about-crenditials-box info-box shadow-box h-full">
                     <Link className="overlay-link" to="/certificate"></Link>
                     <img
-                      src="%PUBLIC_URL%/assets/images/images/certificate.png"
+                      src="My-Portfolio/blob/main/src/assets/images/certificate.png"
                       alt="Sign"
                       height={145}
                     />
