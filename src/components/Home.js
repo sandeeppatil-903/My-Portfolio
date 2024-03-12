@@ -11,7 +11,7 @@ const Home = () => {
               <Link className="overlay-link" to="/about"></Link>
               <div className="img-box">
                 <img
-                  src="%PUBLIC_URL%/assets/images/profile-2.jpeg"
+                  src="./assets/images/profile-2.jpeg"
                   alt="About Me"
                 />
               </div>
@@ -21,7 +21,7 @@ const Home = () => {
                 <p>I am a Web Designer based in India.</p>
                 <NavLink to="./about.html" className="about-btn">
                   <img
-                    src="%PUBLIC_URL%/assets/images/images/icon-2.svg"
+                    src="./assets/images/images/icon-2.svg"
                     alt="Button"
                   />
                 </NavLink>
@@ -38,27 +38,27 @@ const Home = () => {
                       <span>
                         LATEST WORK AND <b>FEATURED</b>{" "}
                         <img
-                          src="%PUBLIC_URL%/assets/images/images/star1.svg"
+                          src="./assets/images/images/star1.svg"
                           alt="Star"
                         />{" "}
                         LATEST WORK AND <b>FEATURED</b>{" "}
                         <img
-                          src="%PUBLIC_URL%/assets/images/images/star1.svg"
+                          src="./assets/images/images/star1.svg"
                           alt="Star"
                         />{" "}
                         LATEST WORK AND <b>FEATURED</b>{" "}
                         <img
-                          src="%PUBLIC_URL%/assets/images/images/star1.svg"
+                          src="./assets/images/images/star1.svg"
                           alt="Star"
                         />{" "}
                         LATEST WORK AND <b>FEATURED</b> LATEST WORK AND{" "}
                         <img
-                          src="%PUBLIC_URL%/assets/images/images/star1.svg"
+                          src="./assets/images/images/star1.svg"
                           alt="Star"
                         />{" "}
                         LATEST WORK AND <b>FEATURED</b> LATEST WORK AND{" "}
                         <img
-                          src="%PUBLIC_URL%/assets/images/images/star1.svg"
+                          src="./assets/images/images/star1.svg"
                           alt="Star"
                         />
                       </span>
@@ -72,7 +72,7 @@ const Home = () => {
                   <div className="about-project-box info-box shadow-box h-full">
                     <Link className="overlay-link" to="/projects"></Link>
                     <img
-                      src="%PUBLIC_URL%/assets/images/images/Header-project-image.jpg"
+                      src="./assets/images/images/Header-project-image.jpg"
                       alt="My Projects"
                     />
                     <div className="d-flex align-items-center justify-content-between">
@@ -83,7 +83,7 @@ const Home = () => {
 
                       <Link to="/" className="about-btn">
                         <img
-                          src="%PUBLIC_URL%/assets/images/images/icon-2.svg"
+                          src="./assets/images/icon-2.svg"
                           alt="Button"
                         />
                       </Link>
@@ -94,7 +94,7 @@ const Home = () => {
                   <div className="about-crenditials-box info-box shadow-box h-full">
                     <Link className="overlay-link" to="/certificate"></Link>
                     <img
-                      src="%PUBLIC_URL%/assets/images/images/certificate.png"
+                      src="./assets/images/images/certificate.png"
                       alt="Sign"
                       height={145}
                     />
@@ -106,7 +106,7 @@ const Home = () => {
 
                       <Link to="/certificate" className="about-btn">
                         <img
-                          src="%PUBLIC_URL%/assets/images/images/icon-2.svg"
+                          src="./assets/images/images/icon-2.svg"
                           alt="Button"
                         />
                       </Link>
@@ -125,7 +125,7 @@ const Home = () => {
                 <div className="about-blog-box info-box shadow-box h-full">
                   <Link href="./blog.html" className="overlay-link"></Link>
                   <img
-                    src="%PUBLIC_URL%/assets/images/images/gfonts.png"
+                    src="./assets/images/images/gfonts.png"
                     alt="GFonts"
                   />
                   <div className="d-flex align-items-center justify-content-between">
@@ -136,7 +136,7 @@ const Home = () => {
 
                     <Link href="./blog.html" className="about-btn">
                       <img
-                        src="%PUBLIC_URL%/assets/images/images/icon-2.svg"
+                        src="./assets/images/images/icon-2.svg"
                         alt="Button"
                       />
                     </Link>
