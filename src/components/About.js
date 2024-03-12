@@ -190,7 +190,7 @@ const About = () => {
                 <div className="about-crenditials-box info-box shadow-box">
                   <Link className="overlay-link" to="/certificate"></Link>
                   <img
-                    src="%PUBLIC_URL%/assets/images/certificate.png"
+                    src="src/assets/images/certificate.png"
                     alt="Sign"
                     height={100}
                   />
@@ -201,10 +201,7 @@ const About = () => {
                     </div>
 
                     <Link to="/certificate" className="about-btn">
-                      <img
-                        src="%PUBLIC_URL%/assets/images/icon-2.svg"
-                        alt="Button"
-                      />
+                      <img src="src/assets/images/icon-2.svg" alt="Button" />
                     </Link>
                   </div>
                 </div>

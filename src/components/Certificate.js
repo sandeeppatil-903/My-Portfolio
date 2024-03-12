@@ -74,7 +74,7 @@ function Certificate() {
                   <Link className="overlay-link" to="/certificate"></Link>
                   <div className="project-img">
                     <img
-                      src="%PUBLIC_URL%/assets/images/certificate3.png"
+                      src="src/assets/images/certificate3.png"
                       alt="Project"
                       height={250}
                     />
