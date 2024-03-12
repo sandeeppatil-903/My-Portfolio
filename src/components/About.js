@@ -21,16 +21,16 @@ const About = () => {
           <div data-aos="zoom-in">
             <div className="about-image-box shadow-box">
               <div className="image-inner">
-                <img src=".%PUBLIC_URL%/assets/images/me2.png" alt="About Me" />
+                <img src="%PUBLIC_URL%/assets/images/me2.png" alt="About Me" />
               </div>
             </div>
           </div>
 
           <div className="about-details" data-aos="zoom-in">
             <h1 className="section-heading" data-aos="fade-up">
-              <img src=".%PUBLIC_URL%/assets/images/star-2-2.png" alt="Star" />{" "}
+              <img src="%PUBLIC_URL%/assets/images/star-2-2.png" alt="Star" />{" "}
               Self-summary{" "}
-              <img src=".%PUBLIC_URL%/assets/images/star-2-2.png" alt="Star" />
+              <img src="%PUBLIC_URL%/assets/images/star-2-2.png" alt="Star" />
             </h1>
             <div className="about-details-inner shadow-box">
               <img src="%PUBLIC_URL%/assets/images/icon2-2.png" alt="Star" />
