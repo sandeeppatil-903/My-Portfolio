@@ -69,7 +69,7 @@ const Contact = () => {
 
           <div data-aos="zoom-in" className="contact-form">
             <div className="shadow-box">
-              <img src="./assets/images/icon3-2.png" alt="Icon" />
+              <img src="%PUBLIC_URL%/assets/images/icon3-2.png" alt="Icon" />
               <h1>
                 Let’s work <span>together.</span>
               </h1>

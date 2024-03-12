@@ -5,8 +5,9 @@ const Projects = () => {
     <section className="projects-area">
       <div className="container">
         <h1 className="section-heading" data-aos="fade-up">
-          <img src="./assets/images/star-2-2.png" alt="Star" /> All Projects{" "}
-          <img src="./assets/images/star-2-2.png" alt="Star" />
+          <img src="%PUBLIC_URL%/assets/images/star-2-2.png" alt="Star" /> All
+          Projects{" "}
+          <img src="%PUBLIC_URL%/assets/images/star-2-2.png" alt="Star" />
         </h1>
         <div className="row">
           <div className="col-md-4">
@@ -15,7 +16,7 @@ const Projects = () => {
                 <Link className="overlay-link" to="/projects"></Link>
                 <div className="project-img">
                   <img
-                    src="./assets/images/projects1.jpeg"
+                    src="%PUBLIC_URL%/assets/images/projects1.jpeg"
                     alt="Project"
                     width={330}
                   />
@@ -26,7 +27,10 @@ const Projects = () => {
                     <h1>E Commerce website</h1>
                   </div>
                   <Link to="/projects" className="project-btn">
-                    <img src="./assets/images/icon-2.svg" alt="Button" />
+                    <img
+                      src="%PUBLIC_URL%/assets/images/icon-2.svg"
+                      alt="Button"
+                    />
                   </Link>
                 </div>
               </div>
@@ -36,7 +40,10 @@ const Projects = () => {
               <div className="project-item shadow-box">
                 <Link className="overlay-link" to="/projects"></Link>
                 <div className="project-img">
-                  <img src="./assets/images/projects2.jpg" alt="Project" />
+                  <img
+                    src="%PUBLIC_URL%/assets/images/projects2.jpg"
+                    alt="Project"
+                  />
                 </div>
                 <div className="d-flex align-items-center justify-content-between">
                   <div className="project-info">
@@ -44,7 +51,10 @@ const Projects = () => {
                     <h1>Women Clothing Store</h1>
                   </div>
                   <Link to="/projects" className="project-btn">
-                    <img src="./assets/images/icon-2.svg" alt="Button" />
+                    <img
+                      src="%PUBLIC_URL%/assets/images/icon-2.svg"
+                      alt="Button"
+                    />
                   </Link>
                 </div>
               </div>
@@ -52,8 +62,9 @@ const Projects = () => {
           </div>
           <div className="col-md-8">
             <h1 className="section-heading" data-aos="fade-up">
-              <img src="./assets/images/star-2-2.png" alt="Star" /> All Projects{" "}
-              <img src="./assets/images/star-2-2.png" alt="Star" />
+              <img src="%PUBLIC_URL%/assets/images/star-2-2.png" alt="Star" />{" "}
+              All Projects{" "}
+              <img src="%PUBLIC_URL%/assets/images/star-2-2.png" alt="Star" />
             </h1>
 
             <div className="d-flex align-items-start gap-24">
@@ -62,7 +73,7 @@ const Projects = () => {
                   <Link className="overlay-link" to="/projects"></Link>
                   <div className="project-img">
                     <img
-                      src="./assets/images/projects3.jpg"
+                      src="%PUBLIC_URL%/assets/images/projects3.jpg"
                       alt="Project"
                       height={250}
                     />
@@ -73,7 +84,10 @@ const Projects = () => {
                       <h1>Photography</h1>
                     </div>
                     <Link to="/projects" className="project-btn">
-                      <img src="./assets/images/icon-2.svg" alt="Button" />
+                      <img
+                        src="%PUBLIC_URL%/assets/images/icon-2.svg"
+                        alt="Button"
+                      />
                     </Link>
                   </div>
                 </div>
@@ -83,7 +97,10 @@ const Projects = () => {
                 <div className="project-item shadow-box">
                   <Link className="overlay-link" to="/projects"></Link>
                   <div className="project-img">
-                    <img src="./assets/images/projecst4.png" alt="Project" />
+                    <img
+                      src="%PUBLIC_URL%/assets/images/projecst4.png"
+                      alt="Project"
+                    />
                   </div>
                   <div className="d-flex align-items-center justify-content-between">
                     <div className="project-info">
@@ -91,7 +108,10 @@ const Projects = () => {
                       <h1>TODO App</h1>
                     </div>
                     <Link to="/projects" className="project-btn">
-                      <img src="./assets/images/icon-2.svg" alt="Button" />
+                      <img
+                        src="%PUBLIC_URL%/assets/images/icon-2.svg"
+                        alt="Button"
+                      />
                     </Link>
                   </div>
                 </div>
@@ -103,7 +123,10 @@ const Projects = () => {
                 <div className="project-item shadow-box">
                   <Link className="overlay-link" to="/projects"></Link>
                   <div className="project-img">
-                    <img src="./assets/images/projects5.jpg" alt="Project" />
+                    <img
+                      src="%PUBLIC_URL%/assets/images/projects5.jpg"
+                      alt="Project"
+                    />
                   </div>
                   <div className="d-flex align-items-center justify-content-between">
                     <div className="project-info">
@@ -111,7 +134,10 @@ const Projects = () => {
                       <h1>Amazon Clone</h1>
                     </div>
                     <Link to="/projects" className="project-btn">
-                      <img src="./assets/images/icon-2.svg" alt="Button" />
+                      <img
+                        src="%PUBLIC_URL%/assets/images/icon-2.svg"
+                        alt="Button"
+                      />
                     </Link>
                   </div>
                 </div>
@@ -121,7 +147,10 @@ const Projects = () => {
                 <div className="project-item shadow-box">
                   <Link className="overlay-link" to="/projects"></Link>
                   <div className="project-img">
-                    <img src="./assets/images/projects6.png" alt="Project" />
+                    <img
+                      src="%PUBLIC_URL%/assets/images/projects6.png"
+                      alt="Project"
+                    />
                   </div>
                   <div className="d-flex align-items-center justify-content-between">
                     <div className="project-info">
@@ -129,7 +158,10 @@ const Projects = () => {
                       <h1>Net Run Rate Calculator</h1>
                     </div>
                     <Link to="/projects" className="project-btn">
-                      <img src="./assets/images/icon-2.svg" alt="Button" />
+                      <img
+                        src="%PUBLIC_URL%/assets/images/icon-2.svg"
+                        alt="Button"
+                      />
                     </Link>
                   </div>
                 </div>

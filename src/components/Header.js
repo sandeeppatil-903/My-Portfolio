@@ -8,7 +8,7 @@ const Header = () => {
         <div className="gx-row d-flex align-items-center justify-content-between">
           <NavLink to="/" className="logo">
             <img
-              src="./assets/images/logo-dark1.png"
+              src="%PUBLIC_URL%/assets/images/logo-dark1.png"
               width="50"
               height="50"
               alt="Logo"

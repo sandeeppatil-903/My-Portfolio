@@ -21,19 +21,19 @@ const About = () => {
           <div data-aos="zoom-in">
             <div className="about-image-box shadow-box">
               <div className="image-inner">
-                <img src="../assets/images/me2.png" alt="About Me" />
+                <img src=".%PUBLIC_URL%/assets/images/me2.png" alt="About Me" />
               </div>
             </div>
           </div>
 
           <div className="about-details" data-aos="zoom-in">
             <h1 className="section-heading" data-aos="fade-up">
-              <img src="../assets/images/star-2-2.png" alt="Star" />{" "}
+              <img src=".%PUBLIC_URL%/assets/images/star-2-2.png" alt="Star" />{" "}
               Self-summary{" "}
-              <img src="../assets/images/star-2-2.png" alt="Star" />
+              <img src=".%PUBLIC_URL%/assets/images/star-2-2.png" alt="Star" />
             </h1>
             <div className="about-details-inner shadow-box">
-              <img src="./assets/images/icon2-2.png" alt="Star" />
+              <img src="%PUBLIC_URL%/assets/images/icon2-2.png" alt="Star" />
               <h1>Sandeep Patil</h1>
               <p>
                 {displayContent}
@@ -156,7 +156,10 @@ const About = () => {
                     </div>
 
                     <Link href="./contact.html" className="about-btn">
-                      <img src="./assets/images/icon-2.svg" alt="Button" />
+                      <img
+                        src="%PUBLIC_URL%/assets/images/icon-2.svg"
+                        alt="Button"
+                      />
                     </Link>
                   </div>
                 </div>
@@ -166,7 +169,7 @@ const About = () => {
                 <div className="about-contact-box info-box shadow-box">
                   <Link className="overlay-link" href="./contact.html"></Link>
                   <img
-                    src="./assets/images/icon2-2.png"
+                    src="%PUBLIC_URL%/assets/images/icon2-2.png"
                     alt="Icon"
                     className="star-icon"
                   />
@@ -175,7 +178,10 @@ const About = () => {
                     work <span>together.</span>
                   </h1>
                   <Link href="./contact.html" className="about-btn">
-                    <img src="./assets/images/icon-2.svg" alt="Button" />
+                    <img
+                      src="%PUBLIC_URL%/assets/images/icon-2.svg"
+                      alt="Button"
+                    />
                   </Link>
                 </div>
               </div>
@@ -184,7 +190,7 @@ const About = () => {
                 <div className="about-crenditials-box info-box shadow-box">
                   <Link className="overlay-link" to="/certificate"></Link>
                   <img
-                    src="./assets/images/certificate.png"
+                    src="%PUBLIC_URL%/assets/images/certificate.png"
                     alt="Sign"
                     height={100}
                   />
@@ -195,7 +201,10 @@ const About = () => {
                     </div>
 
                     <Link to="/certificate" className="about-btn">
-                      <img src="./assets/images/icon-2.svg" alt="Button" />
+                      <img
+                        src="%PUBLIC_URL%/assets/images/icon-2.svg"
+                        alt="Button"
+                      />
                     </Link>
                   </div>
                 </div>
