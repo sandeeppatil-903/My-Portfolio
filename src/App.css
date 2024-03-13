@@ -1816,6 +1816,9 @@ a:hover .icon-name {
   .header-area {
     padding: 5px 0;
   }
+  .about-area {
+    padding-top: 100px;
+  }
 
   .header-area .navbar {
     position: fixed;
@@ -1934,10 +1937,13 @@ a:hover .icon-name {
 }
 @media (max-width: 585px) {
   .projects-area {
-    padding-top: 120px;
+    padding-top: 100px;
+  }
+  .about-area {
+    padding-top: 100px;
   }
   .contact-area {
-    padding-top: 120px;
+    padding-top: 110px;
   }
   .about-area .about-me-box {
     flex-direction: column;
@@ -2076,10 +2082,13 @@ a:hover .icon-name {
     height: 50px;
   }
   .projects-area {
-    padding-top: 120px;
+    padding-top: 100px;
   }
   .contact-area {
-    padding-top: 120px;
+    padding-top: 110px;
+  }
+  .about-area {
+    padding-top: 100px;
   }
 
   .about-area .about-me-box .infos h1 {
