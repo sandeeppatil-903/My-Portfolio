@@ -1,8 +1,15 @@
 import React from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../assets/images/logo-dark1.png";
 
 const Header = () => {
+  const [showNavbar, setShowNavbar] = useState(false);
+
+  const handleShowNavbar = () => {
+    setShowNavbar(!showNavbar);
+  };
+
   return (
     <header className="header-area fixed-top">
       <div className="container">
@@ -43,7 +50,10 @@ const Header = () => {
             Let's talk
           </NavLink>
 
-          <div className="show-menu">
+          <div
+            className={`show-menu  ${showNavbar && "active"}`}
+            onClick={handleShowNavbar}
+          >
             <span></span>
             <span></span>
             <span></span>
