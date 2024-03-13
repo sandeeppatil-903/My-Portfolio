@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import certificate from "../assets/images/certificate.png";
 
 function Certificate() {
   return (
@@ -16,11 +17,7 @@ function Certificate() {
               <div className="project-item shadow-box">
                 <Link className="overlay-link" to="/certificate"></Link>
                 <div className="project-img">
-                  <img
-                    src="%PUBLIC_URL%/assets/images/certificate1.png"
-                    alt="Project"
-                    width={330}
-                  />
+                  <img src={certificate} alt="Project" width={330} />
                 </div>
                 <div className="d-flex align-items-center justify-content-between">
                   <div className="project-info">
@@ -28,10 +25,7 @@ function Certificate() {
                     <h1>Web Development</h1>
                   </div>
                   <Link to="/certificate" className="project-btn">
-                    <img
-                      src="%PUBLIC_URL%/assets/images/icon-2.svg"
-                      alt="Button"
-                    />
+                    <img src="./assets/images/icon-2.svg" alt="Button" />
                   </Link>
                 </div>
               </div>
@@ -41,10 +35,7 @@ function Certificate() {
               <div className="project-item shadow-box">
                 <Link className="overlay-link" to="/certificate"></Link>
                 <div className="project-img">
-                  <img
-                    src="%PUBLIC_URL%/assets/images/certificate2.png"
-                    alt="Project"
-                  />
+                  <img src="../assets/images/certificate2.png" alt="Project" />
                 </div>
                 <div className="d-flex align-items-center justify-content-between">
                   <div className="project-info">
@@ -74,7 +65,7 @@ function Certificate() {
                   <Link className="overlay-link" to="/certificate"></Link>
                   <div className="project-img">
                     <img
-                      src="src/assets/images/certificate3.png"
+                      src="./assets/images/certificate3.png"
                       alt="Project"
                       height={250}
                     />

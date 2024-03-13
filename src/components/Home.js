@@ -127,7 +127,7 @@ const Home = () => {
 
                     <Link href="./blog.html" className="about-btn">
                       <img
-                        src="./assets/images/images/icon-2.svg"
+                        src="../assets/images/images/icon-2.svg"
                         alt="Button"
                       />
                     </Link>
