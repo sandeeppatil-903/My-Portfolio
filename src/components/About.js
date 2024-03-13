@@ -32,11 +32,11 @@ const About = () => {
 
           <div className="about-details" data-aos="zoom-in">
             <h1 className="section-heading" data-aos="fade-up">
-              <img src={star2} alt="Star" /> Self-summary{" "}
-              <img src={star2} alt="Star" />
+              <img className="stars1" src={star2} alt="Star" /> Self-summary{" "}
+              <img className="stars1" src={star2} alt="Star" />
             </h1>
             <div className="about-details-inner shadow-box">
-              <img src={star2} alt="Star" />
+              <img src={icon2} alt="Star" />
               <h1>Sandeep Patil</h1>
               <p>
                 {displayContent}

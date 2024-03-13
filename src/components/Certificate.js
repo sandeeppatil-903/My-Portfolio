@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import certificate from "../assets/images/certificate.png";
+import certificate from "../assets/images/certificate1.png";
 import certificate2 from "../assets/images/certificate2.png";
 import certificate3 from "../assets/images/certificate3.png";
 import certificate4 from "../assets/images/certificate4.png";

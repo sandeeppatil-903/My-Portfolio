@@ -413,7 +413,7 @@ ol {
 
 /* # Header */
 .header-area {
-  margin-top: 0px;
+  margin-top: 10px;
   background-color: #0f0f0f;
 }
 
@@ -516,7 +516,7 @@ a:hover .icon-name {
 
 /* # About */
 .about-area {
-  padding-top: 80px;
+  padding-top: 150px;
 }
 .about-area .about-me-box {
   position: relative;
@@ -680,6 +680,9 @@ a:hover .icon-name {
 
 .main-aboutpage .about-area .about-contact-box {
   padding-top: 102px;
+}
+.stars1 {
+  color: #9f9f9f;
 }
 
 /* # Project */
