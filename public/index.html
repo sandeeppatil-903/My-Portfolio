@@ -59,6 +59,27 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    >
+            (function($) {
+
+          $(document).ready( function() {
+              $(document).on('click', '.header-area .show-menu', function() {
+                  $(this).toggleClass('active');
+                  $(".header-area .navbar").toggleClass('active');
+              });
+              // $(document).on('click', '.header-area .navbar .close-menu', function() {
+              //     $(".header-area .navbar").removeClass('active');
+              // });
+
+              AOS.init({
+                  duration: 1500,
+                  once: true,
+              })
+          });
+
+      })(jQuery);
+    </script>
   </body>
 </html>
