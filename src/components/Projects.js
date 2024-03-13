@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import star2 from "../assets/images/star-2-2.png";
+import star2 from "../assets/images/star2.png";
 import icon2 from "../assets/images/icon-2.svg";
 import project1 from "../assets/images/projects1.jpeg";
 import project2 from "../assets/images/projects2.jpg";

@@ -2,7 +2,7 @@ import { useState } from "react";
 import React from "react";
 import { Link } from "react-router-dom";
 import me2 from "../assets/images/me2.png";
-import star2 from "../assets/images/star-2-2.png";
+import star2 from "../assets/images/star2.png";
 import icon2 from "../assets/images/icon-2.svg";
 import icon3 from "../assets/images/icon2-2.png";
 import certificate from "../assets/images/certificate.png";

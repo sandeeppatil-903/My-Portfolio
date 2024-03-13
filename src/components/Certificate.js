@@ -5,7 +5,7 @@ import certificate2 from "../assets/images/certificate2.png";
 import certificate3 from "../assets/images/certificate3.png";
 import certificate4 from "../assets/images/certificate4.png";
 import certificate5 from "../assets/images/certificate5.jpg";
-import star2 from "../assets/images/star-2-2.png";
+import star2 from "../assets/images/star2.png";
 import icon2 from "../assets/images/icon-2.svg";
 
 function Certificate() {
