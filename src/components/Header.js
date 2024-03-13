@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../assets/images/logo-dark1.png";
+import logo from "../assets/images/logo-dark2.png";
 
 const Header = () => {
   const [showNavbar, setShowNavbar] = useState(false);
