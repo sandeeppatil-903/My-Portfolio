@@ -18,8 +18,8 @@ const Header = () => {
             <img
               className="logo-res"
               src={logo}
-              width="60"
-              height="60"
+              width="90"
+              height="90"
               alt="Logo"
             />
           </NavLink>
