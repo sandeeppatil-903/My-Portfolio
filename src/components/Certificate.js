@@ -1,15 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import certificate from "../assets/images/certificate.png";
+import certificate2 from "../assets/images/certificate2.png";
+import certificate3 from "../assets/images/certificate3.png";
+import certificate4 from "../assets/images/certificate4.png";
+import certificate5 from "../assets/images/certificate5.jpg";
+import star2 from "../assets/images/star-2-2.png";
+import icon2 from "../assets/images/icon-2.svg";
 
 function Certificate() {
   return (
     <section className="projects-area">
       <div className="container">
         <h1 className="section-heading" data-aos="fade-up">
-          <img src="%PUBLIC_URL%/assets/images/star-2-2.png" alt="Star" />{" "}
-          Certifications{" "}
-          <img src="%PUBLIC_URL%/assets/images/star-2-2.png" alt="Star" />
+          <img src={star2} alt="Star" /> Certifications{" "}
+          <img src={star2} alt="Star" />
         </h1>
         <div className="row">
           <div className="col-md-4">
@@ -25,7 +30,7 @@ function Certificate() {
                     <h1>Web Development</h1>
                   </div>
                   <Link to="/certificate" className="project-btn">
-                    <img src="./assets/images/icon-2.svg" alt="Button" />
+                    <img src={icon2} alt="Button" />
                   </Link>
                 </div>
               </div>
@@ -35,7 +40,7 @@ function Certificate() {
               <div className="project-item shadow-box">
                 <Link className="overlay-link" to="/certificate"></Link>
                 <div className="project-img">
-                  <img src="../assets/images/certificate2.png" alt="Project" />
+                  <img src={certificate2} alt="Project" />
                 </div>
                 <div className="d-flex align-items-center justify-content-between">
                   <div className="project-info">
@@ -43,10 +48,7 @@ function Certificate() {
                     <h1>Internship</h1>
                   </div>
                   <Link to="/certificate" className="project-btn">
-                    <img
-                      src="%PUBLIC_URL%/assets/images/icon-2.svg"
-                      alt="Button"
-                    />
+                    <img src={icon2} alt="Button" />
                   </Link>
                 </div>
               </div>
@@ -54,9 +56,8 @@ function Certificate() {
           </div>
           <div className="col-md-8">
             <h1 className="section-heading" data-aos="fade-up">
-              <img src="%PUBLIC_URL%/assets/images/star-2-2.png" alt="Star" />{" "}
-              Certifications
-              <img src="%PUBLIC_URL%/assets/images/star-2-2.png" alt="Star" />
+              <img src={star2} alt="Star" /> Certifications
+              <img src={star2} alt="Star" />
             </h1>
 
             <div className="d-flex align-items-start gap-24">
@@ -64,11 +65,7 @@ function Certificate() {
                 <div className="project-item shadow-box">
                   <Link className="overlay-link" to="/certificate"></Link>
                   <div className="project-img">
-                    <img
-                      src="./assets/images/certificate3.png"
-                      alt="Project"
-                      height={250}
-                    />
+                    <img src={certificate3} alt="Project" height={250} />
                   </div>
                   <div className="d-flex align-items-center justify-content-between">
                     <div className="project-info">
@@ -76,10 +73,7 @@ function Certificate() {
                       <h1>Web Development</h1>
                     </div>
                     <Link to="/certificate" className="project-btn">
-                      <img
-                        src="%PUBLIC_URL%/assets/images/icon-2.svg"
-                        alt="Button"
-                      />
+                      <img src={icon2} alt="Button" />
                     </Link>
                   </div>
                 </div>
@@ -89,10 +83,7 @@ function Certificate() {
                 <div className="project-item shadow-box">
                   <Link className="overlay-link" to="/certificate"></Link>
                   <div className="project-img">
-                    <img
-                      src="%PUBLIC_URL%/assets/images/certificate4.png"
-                      alt="Project"
-                    />
+                    <img src={certificate4} alt="Project" />
                   </div>
                   <div className="d-flex align-items-center justify-content-between">
                     <div className="project-info">
@@ -100,10 +91,7 @@ function Certificate() {
                       <h1>Python Programming</h1>
                     </div>
                     <Link to="/certificate" className="project-btn">
-                      <img
-                        src="%PUBLIC_URL%/assets/images/icon-2.svg"
-                        alt="Button"
-                      />
+                      <img src={icon2} alt="Button" />
                     </Link>
                   </div>
                 </div>
@@ -115,7 +103,7 @@ function Certificate() {
                   <Link className="overlay-link" to="/certificate"></Link>
                   <div className="project-img">
                     <img
-                      src="%PUBLIC_URL%/assets/images/certificate5.jpg"
+                      src={certificate5}
                       alt="Project"
                       width={800}
                       height={350}
@@ -127,10 +115,7 @@ function Certificate() {
                       <h1>Internship</h1>
                     </div>
                     <Link to="/certificate" className="project-btn">
-                      <img
-                        src="%PUBLIC_URL%/assets/images/icon-2.svg"
-                        alt="Button"
-                      />
+                      <img src={icon2} alt="Button" />
                     </Link>
                   </div>
                 </div>

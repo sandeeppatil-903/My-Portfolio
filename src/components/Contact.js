@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import icon3 from "../assets/images/icon3-2.png";
 
 const Contact = () => {
   return (
@@ -69,7 +70,7 @@ const Contact = () => {
 
           <div data-aos="zoom-in" className="contact-form">
             <div className="shadow-box">
-              <img src="%PUBLIC_URL%/assets/images/icon3-2.png" alt="Icon" />
+              <img src={icon3} alt="Icon" />
               <h1>
                 Let’s work <span>together.</span>
               </h1>

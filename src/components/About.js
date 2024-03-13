@@ -1,6 +1,10 @@
 import { useState } from "react";
 import React from "react";
 import { Link } from "react-router-dom";
+import me2 from "../assets/images/me2.png";
+import star2 from "../assets/images/star-2-2.png";
+import icon2 from "../assets/images/icon-2.svg";
+import certificate from "../assets/images/certificate.png";
 
 const About = () => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -21,19 +25,18 @@ const About = () => {
           <div data-aos="zoom-in">
             <div className="about-image-box shadow-box">
               <div className="image-inner">
-                <img src="%PUBLIC_URL%/assets/images/me2.png" alt="About Me" />
+                <img src={me2} alt="About Me" />
               </div>
             </div>
           </div>
 
           <div className="about-details" data-aos="zoom-in">
             <h1 className="section-heading" data-aos="fade-up">
-              <img src="%PUBLIC_URL%/assets/images/star-2-2.png" alt="Star" />{" "}
-              Self-summary{" "}
-              <img src="%PUBLIC_URL%/assets/images/star-2-2.png" alt="Star" />
+              <img src={star2} alt="Star" /> Self-summary{" "}
+              <img src={star2} alt="Star" />
             </h1>
             <div className="about-details-inner shadow-box">
-              <img src="%PUBLIC_URL%/assets/images/icon2-2.png" alt="Star" />
+              <img src={star2} alt="Star" />
               <h1>Sandeep Patil</h1>
               <p>
                 {displayContent}
@@ -156,10 +159,7 @@ const About = () => {
                     </div>
 
                     <Link href="./contact.html" className="about-btn">
-                      <img
-                        src="%PUBLIC_URL%/assets/images/icon-2.svg"
-                        alt="Button"
-                      />
+                      <img src={icon2} alt="Button" />
                     </Link>
                   </div>
                 </div>
@@ -168,20 +168,13 @@ const About = () => {
               <div data-aos="zoom-in" className="flex-1">
                 <div className="about-contact-box info-box shadow-box">
                   <Link className="overlay-link" href="./contact.html"></Link>
-                  <img
-                    src="%PUBLIC_URL%/assets/images/icon2-2.png"
-                    alt="Icon"
-                    className="star-icon"
-                  />
+                  <img src={icon2} alt="Icon" className="star-icon" />
                   <h1>
                     Let's <br />
                     work <span>together.</span>
                   </h1>
                   <Link href="./contact.html" className="about-btn">
-                    <img
-                      src="%PUBLIC_URL%/assets/images/icon-2.svg"
-                      alt="Button"
-                    />
+                    <img src={icon2} alt="Button" />
                   </Link>
                 </div>
               </div>
@@ -189,11 +182,7 @@ const About = () => {
               <div data-aos="zoom-in" className="h-full">
                 <div className="about-crenditials-box info-box shadow-box">
                   <Link className="overlay-link" to="/certificate"></Link>
-                  <img
-                    src="src/assets/images/certificate.png"
-                    alt="Sign"
-                    height={100}
-                  />
+                  <img src={certificate} alt="Sign" height={100} />
                   <div className="d-flex align-items-center justify-content-between">
                     <div className="infos">
                       <h4>more about me</h4>
@@ -201,7 +190,7 @@ const About = () => {
                     </div>
 
                     <Link to="/certificate" className="about-btn">
-                      <img src="src/assets/images/icon-2.svg" alt="Button" />
+                      <img src={icon2} alt="Button" />
                     </Link>
                   </div>
                 </div>

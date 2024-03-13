@@ -5,6 +5,7 @@ import icon_2 from "../assets/images/icon-2.svg";
 import star1 from "../assets/images/star1.svg";
 import Header from "../assets/images/Header-project-image.jpg";
 import certificate from "../assets/images/certificate.png";
+import gfonts from "../assets/images/gfonts.png";
 
 const Home = () => {
   return (
@@ -93,7 +94,7 @@ const Home = () => {
               <div data-aos="zoom-in">
                 <div className="about-blog-box info-box shadow-box h-full">
                   <Link href="./blog.html" className="overlay-link"></Link>
-                  <img src="./assets/images/images/gfonts.png" alt="GFonts" />
+                  <img src={gfonts} alt="GFonts" />
                   <div className="d-flex align-items-center justify-content-between">
                     <div className="infos">
                       <h4>Blog</h4>
