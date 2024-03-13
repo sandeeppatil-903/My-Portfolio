@@ -18,7 +18,7 @@ const Header = () => {
             <img src={logo} width="50" height="50" alt="Logo" />
           </NavLink>
 
-          <nav className="navbar">
+          <nav className={`navbar ${showNavbar && "active"}`}>
             <ul className="menu">
               <li>
                 <NavLink to="/" activeclassname="active">
@@ -51,7 +51,7 @@ const Header = () => {
           </NavLink>
 
           <div
-            className={`show-menu  ${showNavbar && "active"}`}
+            className={`show-menu ${showNavbar && "active"}`}
             onClick={handleShowNavbar}
           >
             <span></span>
