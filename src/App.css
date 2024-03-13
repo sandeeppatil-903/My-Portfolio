@@ -1929,6 +1929,12 @@ a:hover .icon-name {
   }
 }
 @media (max-width: 585px) {
+  .projects-area {
+    padding-top: 120px;
+  }
+  .contact-area {
+    padding-top: 120px;
+  }
   .about-area .about-me-box {
     flex-direction: column;
   }
@@ -2061,6 +2067,13 @@ a:hover .icon-name {
   }
 }
 @media (max-width: 425px) {
+  .projects-area {
+    padding-top: 120px;
+  }
+  .contact-area {
+    padding-top: 120px;
+  }
+
   .about-area .about-me-box .infos h1 {
     font-size: 30px;
   }
