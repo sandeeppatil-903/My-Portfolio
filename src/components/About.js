@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import me2 from "../assets/images/me2.png";
 import star2 from "../assets/images/star-2-2.png";
 import icon2 from "../assets/images/icon-2.svg";
+import icon3 from "../assets/images/icon-2-2.png";
 import certificate from "../assets/images/certificate.png";
 
 const About = () => {
@@ -36,7 +37,7 @@ const About = () => {
               <img className="stars1" src={star2} alt="Star" />
             </h1>
             <div className="about-details-inner shadow-box">
-              <img src={icon2} alt="Star" />
+              <img src={icon3} alt="Star" />
               <h1>Sandeep Patil</h1>
               <p>
                 {displayContent}
