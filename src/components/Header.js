@@ -15,7 +15,7 @@ const Header = () => {
       <div className="container">
         <div className="gx-row d-flex align-items-center justify-content-between">
           <NavLink to="/" className="logo">
-            <img src={logo} width="50" height="50" alt="Logo" />
+            <img src={logo} width="100" height="100" alt="Logo" />
           </NavLink>
 
           <nav className={`navbar ${showNavbar && "active"}`}>
