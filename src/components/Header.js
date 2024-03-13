@@ -11,14 +11,15 @@ const Header = () => {
   };
 
   return (
-    <header className={`header-area ${!showNavbar && "fixed-top"}`}>
+    <header className="header-area fixed-top">
       <div className="container">
         <div className="gx-row d-flex align-items-center justify-content-between">
           <NavLink to="/" className="logo">
             <img
+              className="logo-res"
               src={logo}
-              width={showNavbar ? "50" : "100"}
-              height={showNavbar ? "50" : "100"}
+              width="100"
+              height="100"
               alt="Logo"
             />
           </NavLink>
