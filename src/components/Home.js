@@ -1,5 +1,10 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import profile_2 from "../assets/images/profile-2.jpeg";
+import icon_2 from "../assets/images/icon-2.svg";
+import star1 from "../assets/images/star1.svg";
+import Header from "../assets/images/Header-project-image.jpg";
+import certificate from "../assets/images/certificate.png";
 
 const Home = () => {
   return (
@@ -10,17 +15,14 @@ const Home = () => {
             <div className="about-me-box shadow-box">
               <Link className="overlay-link" to="/about"></Link>
               <div className="img-box">
-                <img
-                  src="My-Portfolio/src/assets/images/profile-2.jpeg"
-                  alt="About Me"
-                />
+                <img src={profile_2} alt="About Me" />
               </div>
               <div className="infos">
                 <h4>A WEB DESIGNER</h4>
                 <h1>Sandeep Patil.</h1>
                 <p>I am a Web Designer based in India.</p>
                 <NavLink to="./about.html" className="about-btn">
-                  <img src="src/assets/images/images/icon-2.svg" alt="Button" />
+                  <img src={icon_2} alt="Button" />
                 </NavLink>
               </div>
             </div>
@@ -34,30 +36,13 @@ const Home = () => {
                     <div>
                       <span>
                         LATEST WORK AND <b>FEATURED</b>{" "}
-                        <img
-                          src="src/assets/images/images/star1.svg"
-                          alt="Star"
-                        />{" "}
-                        LATEST WORK AND <b>FEATURED</b>{" "}
-                        <img
-                          src="src/assets/images/images/star1.svg"
-                          alt="Star"
-                        />{" "}
-                        LATEST WORK AND <b>FEATURED</b>{" "}
-                        <img
-                          src="src/assets/images/images/star1.svg"
-                          alt="Star"
-                        />{" "}
+                        <img src={star1} alt="Star" /> LATEST WORK AND{" "}
+                        <b>FEATURED</b> <img src={star1} alt="Star" /> LATEST
+                        WORK AND <b>FEATURED</b> <img src={star1} alt="Star" />{" "}
                         LATEST WORK AND <b>FEATURED</b> LATEST WORK AND{" "}
-                        <img
-                          src="src/assets/images/images/star1.svg"
-                          alt="Star"
-                        />{" "}
-                        LATEST WORK AND <b>FEATURED</b> LATEST WORK AND{" "}
-                        <img
-                          src="src/assets/images/images/star1.svg"
-                          alt="Star"
-                        />
+                        <img src={star1} alt="Star" /> LATEST WORK AND{" "}
+                        <b>FEATURED</b> LATEST WORK AND{" "}
+                        <img src={star1} alt="Star" />
                       </span>
                     </div>
                   </div>
@@ -68,10 +53,7 @@ const Home = () => {
                 <div data-aos="zoom-in">
                   <div className="about-project-box info-box shadow-box h-full">
                     <Link className="overlay-link" to="/projects"></Link>
-                    <img
-                      src="src/assets/images/images/Header-project-image.jpg"
-                      alt="My Projects"
-                    />
+                    <img src={Header} alt="My Projects" />
                     <div className="d-flex align-items-center justify-content-between">
                       <div className="infos">
                         <h4>SHOWCASE</h4>
@@ -79,7 +61,7 @@ const Home = () => {
                       </div>
 
                       <Link to="/" className="about-btn">
-                        <img src="./assets/images/icon-2.svg" alt="Button" />
+                        <img src={icon_2} alt="Button" />
                       </Link>
                     </div>
                   </div>
@@ -87,11 +69,7 @@ const Home = () => {
                 <div data-aos="zoom-in">
                   <div className="about-crenditials-box info-box shadow-box h-full">
                     <Link className="overlay-link" to="/certificate"></Link>
-                    <img
-                      src="My-Portfolio/blob/main/src/assets/images/certificate.png"
-                      alt="Sign"
-                      height={145}
-                    />
+                    <img src={certificate} alt="Sign" height={145} />
                     <div className="d-flex align-items-center justify-content-between">
                       <div className="infos">
                         <h4>My</h4>
@@ -99,10 +77,7 @@ const Home = () => {
                       </div>
 
                       <Link to="/certificate" className="about-btn">
-                        <img
-                          src="./assets/images/images/icon-2.svg"
-                          alt="Button"
-                        />
+                        <img src={icon_2} alt="Button" />
                       </Link>
                     </div>
                   </div>
@@ -126,10 +101,7 @@ const Home = () => {
                     </div>
 
                     <Link href="./blog.html" className="about-btn">
-                      <img
-                        src="../assets/images/images/icon-2.svg"
-                        alt="Button"
-                      />
+                      <img src={icon_2} alt="Button" />
                     </Link>
                   </div>
                 </div>
@@ -192,10 +164,7 @@ const Home = () => {
                     </div>
 
                     <Link href="./service.html" className="about-btn">
-                      <img
-                        src="%PUBLIC_URL%/assets/images/images/icon-2.svg"
-                        alt="Button"
-                      />
+                      <img src={icon_2} alt="Button" />
                     </Link>
                   </div>
                 </div>
@@ -226,10 +195,7 @@ const Home = () => {
                     </div>
 
                     <Link href="./contact.html" className="about-btn">
-                      <img
-                        src="%PUBLIC_URL%/assets/images/images/icon-2.svg"
-                        alt="Button"
-                      />
+                      <img src={icon_2} alt="Button" />
                     </Link>
                   </div>
                 </div>
@@ -272,20 +238,13 @@ const Home = () => {
         <div className="col-md-6" data-aos="zoom-in">
           <div className="about-contact-box info-box shadow-box">
             <Link className="overlay-link" to="/contact"></Link>
-            <img
-              src="%PUBLIC_URL%/assets/images/images/icon2-2.png"
-              alt="Icon"
-              className="star-icon"
-            />
+            <img src={icon_2} alt="Icon" className="star-icon" />
             <h1>
               Let's <br />
               work <span>together.</span>
             </h1>
             <Link to="/projects" className="about-btn">
-              <img
-                src="%PUBLIC_URL%/assets/images/images/icon-2.svg"
-                alt="Button"
-              />
+              <img src={icon_2} alt="Button" />
             </Link>
           </div>
 
